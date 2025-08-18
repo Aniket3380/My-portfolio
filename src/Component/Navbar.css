@@ -1,0 +1,117 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+   
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.back-btn {
+  margin-top: 8px;
+  padding: 6px 16px;
+  background-color: #f50057;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hamburger icon always visible */
+.menu-btn {
+  font-size: 2rem;
+  cursor: pointer;
+  display: block;
+}
+
+/* Drawer animation */
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -260px; /* hidden initially */
+  width: 260px;
+  height: 100%;
+  background: #111;
+  color: white;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 20px;
+  transition: right 0.4s ease;
+  z-index: 1200;
+}
+
+.drawer.open {
+  right: 0; /* slide in */
+}
+
+.drawer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.drawer a:hover {
+  color: #ff9800;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Overlay effect */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1100;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.2rem;
+  }
+  
+  .drawer {
+    width: 220px;
+    padding-left: 15px;
+  }
+
+  .drawer a {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Even on desktop, keep hamburger visible */
+  .menu-btn {
+    display: block;
+  }
+}
