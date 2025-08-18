@@ -12,12 +12,12 @@ export default function MyWork() {
     {
       title: "Portfolio Website",
       description: "Responsive portfolio made with React.js and CSS animations.",
-      link: "#"
+      link: "https://github.com/Aniket3380/My-portfolio"
     },
     {
       title: "Todo App",
       description: "Simple CRUD todo app using React and LocalStorage.",
-      link: "https://github.com/Aniket3380/todo-app.git"
+      link: "https://github.com/Aniket3380/My-todo-app"
     }
   ];
 
