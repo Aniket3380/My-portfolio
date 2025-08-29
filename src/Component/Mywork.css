@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+  padding: 0 15px;
 }
 
 .work-card {
@@ -26,6 +27,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .work-card:hover {
@@ -61,6 +63,14 @@
   background: #3a3650;
 }
 
+.work-btn.live-link {
+  background: #2196f3;
+}
+
+.work-btn.live-link:hover {
+  background: #1976d2;
+}
+
 /* ---------------- RESPONSIVE ---------------- */
 
 /* Small mobiles */
@@ -86,11 +96,14 @@
     font-size: 0.85rem;
   }
 
+  
+
   .work-btn {
-    font-size: 0.8rem;
-    padding: 8px 14px;
+    font-size: 0.85rem;
+    padding: 9px 16px;
   }
 }
+
 
 /* Tablets */
 @media (max-width: 768px) {
