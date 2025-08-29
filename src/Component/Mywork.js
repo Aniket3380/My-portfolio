@@ -18,12 +18,6 @@ export default function MyWork() {
     liveLink: "https://weather-dashboard-virid-six.vercel.app/"
   },
     {
-      title: "Portfolio Website",
-      description: "Responsive portfolio made with React.js and CSS animations.",
-      link: "https://github.com/Aniket3380/My-portfolio",
-      liveLink: "https://my-portfolio-seven-sandy-11.vercel.app/",
-    },
-    {
       title: "Todo App",
       description: "Simple CRUD todo app using React and LocalStorage.",
       link:"https://github.com/Aniket3380/My-todo-app.git",
