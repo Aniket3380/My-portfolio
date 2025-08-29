@@ -13,7 +13,7 @@ export default function MyWork() {
 
     {
     title: "Weather Dashboard",
-    description: "Weather app using React and Tailwind css and OpenWeather API to get real-time weather data.",
+    description: "Weather app using React and Tailwind css and OpenWeather API to get real-time weather data",
     link: "https://github.com/Aniket3380/Weather-Dashboard.git",
     liveLink: "https://weather-dashboard-virid-six.vercel.app/"
   },
