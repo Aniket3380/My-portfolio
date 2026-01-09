@@ -8,7 +8,7 @@ export default function MyWork() {
       title: "E-Commerce Dashboard",
       description: "Built with MERN stack, features product listings, cart, and checkout.",
       link: "https://github.com/Aniket3380/E-commerse-Dashborad.git",
-      liveLink: "https://e-commerse-dashborad.vercel.app/signup",
+      liveLink: "https://quickcart-rho-lyart.vercel.app/",
     },
 
     {
